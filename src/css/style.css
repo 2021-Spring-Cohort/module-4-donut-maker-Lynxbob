@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(/src/images/background-3.jpg);
+    color: rgb(255, 255, 255);
+}
+
+#donut__clicker:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+    cursor:pointer;
+}
+
+#donut__clicker:active {
+    transform: scale(.9);
+    transition: transform .2s;
+}
+
+#donut__clicker {
+    transform: scale(1.0);
+    transition: transform .2s;
+    
+}
+
+.donut__clicking {
+    align-self: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.main__section {
+    margin-top: 5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-self:center;
+}
+
+.donut__count {
+    text-align: center;
+}
+
+.header__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.auto__clickers {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    margin-left: 3rem;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:auto;
+    margin-bottom: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 1rem;
+}
+
+.donut__multipliers {
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-right: 3rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    margin-top:auto;
+    margin-bottom: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dropdown {
+    display: flex;
+    visibility: hidden;
+    justify-content: center;
+    width: 40%;
+    height:12rem;
+    align-self: center;
+    background-color: black;
+    padding: 1rem;
+}
+.header {
+    background-color: black;
+   
+}
+
+.contact__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.donuts__per__second {
+    text-align: center;
+}
+
+.reset {
+    margin: 2rem;
+}
